@@ -146,7 +146,6 @@ Each story includes:
   - Rival character
   - Mentor figure
 - 📜 **Plot Summary** - Main story arc
-- 🔄 **Plot Twist** - Unexpected story elements
 
 ## 🤝 Contributing
 
