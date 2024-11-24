@@ -1,0 +1,3 @@
+include src/static/css/*.css
+include src/static/js/*.js
+include src/templates/*.html
