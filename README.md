@@ -34,7 +34,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/AbdulSohail018/anime-story-generator.git
+git clone https://github.com/yourusername/anime-generator.git
 cd anime-generator
 
 # Create and activate virtual environment
@@ -82,18 +82,40 @@ print(f"Plot: {story['plot_summary']}")
 
 ```
 anime-generator/
-├── src/
-│   ├── static/              # Static assets
-│   │   ├── css/            # Stylesheets
-│   │   ├── js/             # JavaScript files
-│   │   └── images/         # Images and icons
-│   │
-│   ├── templates/          # HTML templates
-│   ├── generator.py        # Story generation logic
-│   └── app.py             # Flask application
 │
-├── tests/                  # Unit tests
-└── examples/              # Usage examples
+├── src/
+│   ├── static/
+│   │   ├── css/
+│   │   │   └── styles.css
+│   │   ├── js/
+│   │   │   └── main.js
+│   │   └── images/
+│   │       └── interface.png
+│   │
+│   ├── templates/
+│   │   └── index.html
+│   │
+│   ├── __init__.py
+│   ├── generator.py
+│   ├── app.py
+│   └── config.py
+│
+├── tests/
+│   └── test_generator.py
+│
+├── examples/
+│   └── basic_usage.py
+│
+├── .github/
+│   └── workflows/
+│       └── python-package.yml
+│
+├── setup.py
+├── requirements.txt
+├── README.md
+├── MANIFEST.in
+├── LICENSE
+└── .gitignore
 ```
 
 ## 🛠️ Development
